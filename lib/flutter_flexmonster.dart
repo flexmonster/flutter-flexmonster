@@ -114,13 +114,6 @@ class Flexmonster extends StatelessWidget {
     return cellDataObject;
   }
 
-  // ///This API call shows an alert pop-up window with a custom message.
-  // Future<void> alert(dynamic alertConfigs) async {
-  //   WebViewController apiController = await controller.future;
-  //   await apiController
-  //       .runJavascript("flexmonster.alert(${jsonEncode(alertConfigs)})");
-  // }
-
   ///Returns a list of hierarchies selected in the report slice for columns.
   Future<dynamic> getColumns() async {
     WebViewController apiController = await controller.future;
@@ -547,10 +540,10 @@ class Flexmonster extends StatelessWidget {
   }
 
   final List<String> _eventList = [
-    "afterchartdraw", //
+    "afterchartdraw",
     "aftergriddraw",
     "beforegriddraw",
-    "cellclick", //
+    "cellclick",
     "chartclick",
     "celldoubleclick",
     "datachanged",
@@ -650,8 +643,6 @@ class Flexmonster extends StatelessWidget {
 
   <body style="margin:0; padding:0; display: flex; height: 100vh;">
     <div id="pivot-container"></div>
-    <div id="output">
-    </div>
         <script>
             let pivot = new Flexmonster({
                 container: "#pivot-container",

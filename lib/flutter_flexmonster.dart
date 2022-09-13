@@ -1,10 +1,9 @@
-// ignore_for_file: avoid_print
-
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
+// ignore: must_be_immutable
 class Flexmonster extends StatelessWidget {
   final Completer<WebViewController> _controller =
       Completer<WebViewController>();

@@ -417,13 +417,6 @@ class Flexmonster extends StatelessWidget {
         ${options == null ? "" : jsonEncode(options)})''');
   }
 
-  ///Prints the content of the grid or chart via the OS print manager.
-  Future<void> print([Map<String, String>? requestHeaders]) async {
-    WebViewController apiController = await controller.future;
-    await apiController.runJavascript(
-        "flexmonster.print(${requestHeaders == null ? "" : jsonEncode(requestHeaders)})");
-  }
-
   ///This API call opens the Field list.
   Future<void> openFieldsList() async {
     WebViewController apiController = await controller.future;

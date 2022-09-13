@@ -577,7 +577,6 @@ class Flexmonster extends StatelessWidget {
     "reportfilecancelled",
     "reportfileerror",
     "runningquery",
-    "unauthorizederror",
     "update"
   ];
 

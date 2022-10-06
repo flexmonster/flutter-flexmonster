@@ -532,6 +532,13 @@ class Flexmonster extends StatelessWidget {
         .runJavascript("flexmonster.openFilter('$hierarchyUniqueName')");
   }
 
+  ///Returns version of the Flexmonster JavaScript library.
+  Future<String> version() async {
+    WebViewController apiController = await controller.future;
+    return await apiController
+        .runJavascriptReturningResult("flexmonster.version");
+  }
+
   final List<String> _eventList = [
     "afterchartdraw",
     "aftergriddraw",

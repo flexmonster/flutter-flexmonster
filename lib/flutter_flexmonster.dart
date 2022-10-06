@@ -407,7 +407,8 @@ class Flexmonster extends StatelessWidget {
         "flexmonster.sortValues('$axisName','$type'${tuple == null || measure == null ? "" : ",'${jsonEncode(tuple)}','${jsonEncode(measure)}'"})");
   }
 
-  ///Sorts values in a specific row or column.
+  ///Helps to update data for the report without cleaning the report. Only the `dataSource` is updated, whereas the slice, all defined options, number and conditional formatting, the scroll position stay the same.
+  ///For all data sources, `updateData` allows connecting to a new data source. For a `JSON` data source, it is also possible to update only some part of the data.
   Future<void> updateData(dynamic connectionParameters,
       [dynamic options]) async {
     WebViewController apiController = await controller.future;

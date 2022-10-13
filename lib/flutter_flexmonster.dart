@@ -514,6 +514,9 @@ class Flexmonster extends StatelessWidget {
 
   ///Sets a Dart function for the specified event.
   off(String eventName, [Function? function]) {
+    if (function == null) {
+      eventHandlers[eventName] = <Function>[];
+    }
     while ((eventHandlers[eventName])!.contains(function)) {
       eventHandlers[eventName]!.remove(function);
     }

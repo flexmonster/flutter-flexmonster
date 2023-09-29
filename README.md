@@ -17,27 +17,27 @@ Table of contents:
 * [Integration](#integration)
 * [Usage](#usage)
 * [Sample project](#sample-project)
-* [Support and feedback](#support-feedback)
+* [Support and feedback](#support-and-feedback)
 * [License](#license)
 * [Social media](#social-media)
 
-## <a name="integration"></a>Integration ##
+## Integration
 
 Flexmonster documentation provides a detailed step-by-step guide on [іntegration with Flutter](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter). 
 
 
-## <a name="usage"></a>Usage ##
+## Usage
 
 Explore the available [methods and events](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter#methods-and-events) to learn the specifics of using and customizing Flexmonster in a Flutter application.
 
-## <a name="sample-project"></a>Sample project ##
+## Sample project
 
 If you look for some reference examples, our team prepared a ready-to-use [Flutter pivot grid sample project](https://github.com/flexmonster/pivot-flutter?r=wrap_flutter) with live demos of the most popular use cases. 
 
 In our documentation, you can find [a guide for the sample Flutter application](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter#github-sample). There, you can learn how to run it and what's inside.
 
 
-## <a name="support-feedback"></a>Support and feedback ##
+## Support and feedback
 
 In case of any issues, visit our [troubleshooting section](https://www.flexmonster.com/doc/typical-errors?r=wrap_flutter). You can also search among the [resolved cases](https://www.flexmonster.com/technical-support?r=wrap_flutter) for a solution to your problem.
 
@@ -45,14 +45,14 @@ To share your feedback or ask questions, contact our Tech team by raising a tick
 
 If you need any help with your license — fill out our [Contact form](https://www.flexmonster.com/contact-our-team?r=wrap_flutter), and we will get in touch with you.
 
-## <a name="license"></a>License ##
+## License
 
 Flexmonster Flutter wrapper is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
 
 To learn about Flexmonster Pivot licenses, visit the [Flexmonster licensing page](https://www.flexmonster.com/pivot-table-editions-and-pricing?r=wrap_flutter). 
 If you want to test our product, we provide a 30-day free trial.
 
-## <a name="social-media"></a>Social media ##
+## Social media
 
 Follow us on social media and stay updated on our development process!
 

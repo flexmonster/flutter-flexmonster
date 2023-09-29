@@ -28,13 +28,13 @@ Flexmonster documentation provides a detailed step-by-step guide on [іntegratio
 
 ## <a name="usage"></a>Usage ##
 
-Explore the available [methods and events](https://www.flexmonster.com/doc/integration-with-flutter/#methods-and-events?r=wrap_flutter) to learn the specifics of using and customizing Flexmonster in a Flutter application.
+Explore the available [methods and events](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter#methods-and-events) to learn the specifics of using and customizing Flexmonster in a Flutter application.
 
 ## <a name="sample-project"></a>Sample project ##
 
 If you look for some reference examples, our team prepared a ready-to-use [Flutter pivot grid sample project](https://github.com/flexmonster/pivot-flutter?r=wrap_flutter) with live demos of the most popular use cases. 
 
-In our documentation, you can find [a guide for the sample Flutter application](https://www.flexmonster.com/doc/integration-with-flutter/#github-sample?r=wrap_flutter). There, you can learn how to run it and what's inside.
+In our documentation, you can find [a guide for the sample Flutter application](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter#github-sample). There, you can learn how to run it and what's inside.
 
 
 ## <a name="support-feedback"></a>Support and feedback ##

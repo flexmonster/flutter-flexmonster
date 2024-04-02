@@ -8,7 +8,7 @@ Website: [flexmonster.com](https://www.flexmonster.com?r=wrap_flutter)
 
 ## Flexmonster Pivot Table & Charts
 
-Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Blazor data visualization project. The tool supports popular frameworks like Angular, React, Vue, Blazor, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap_flutter). Also, Flexmonster connects to any data source, including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
+Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Flutter data visualization project. The tool supports popular frameworks like Angular, React, Vue, Blazor, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap_flutter). Also, Flexmonster connects to any data source, including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
 
 This package is a [Flexmonster Pivot](https://www.flexmonster.com?r=wrap_flutter) wrapper for [Flutter](https://flutter.dev) applications.
 

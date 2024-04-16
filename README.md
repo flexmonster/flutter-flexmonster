@@ -1,5 +1,5 @@
 # Flutter pivot table | Flexmonster Pivot Table & Charts wrapper for Flutter
-[![Flexmonster Pivot Table & Charts](https://static.flexmonster.com/uploads/2023/09/08090551/flutter.png)](https://www.flexmonster.com?r=wrap_flutter)
+[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/readmes/flutter.webp)](https://www.flexmonster.com?r=wrap_flutter)
 Website: [flexmonster.com](https://www.flexmonster.com?r=wrap_flutter)
 
 [![Pub.dev](https://img.shields.io/pub/v/flutter_flexmonster)](https://pub.dev/packages/flutter_flexmonster)

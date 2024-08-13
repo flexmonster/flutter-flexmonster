@@ -37,8 +37,8 @@ class Flexmonster extends StatelessWidget {
   ///This API call returns report JSON object as string
   Future<dynamic> getReport() async {
     WebViewController apiController = await controller.future;
-    String reportString = await apiController
-        .runJavascriptReturningResult("flexmonster.getReport()");
+    String reportString = await apiController.runJavascriptReturningResult(
+        "JSON.stringify(flexmonster.getReport())");
     dynamic report = jsonDecode(reportString);
     return report;
   }
@@ -81,7 +81,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getAllConditions() async {
     WebViewController apiController = await controller.future;
     String conditionsString = await apiController
-        .runJavascriptReturningResult("flexmonster.getAllConditions()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getAllConditions())");
     dynamic conditions = jsonDecode(conditionsString);
     return conditions;
   }
@@ -90,7 +90,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getAllHierarchies() async {
     WebViewController apiController = await controller.future;
     String hierarchiesString = await apiController
-        .runJavascriptReturningResult("flexmonster.getAllHierarchies()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getAllHierarchies())");
     dynamic hierarchies = jsonDecode(hierarchiesString);
     return hierarchies;
   }
@@ -99,7 +99,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getAllMeasures() async {
     WebViewController apiController = await controller.future;
     String measuresString = await apiController
-        .runJavascriptReturningResult("flexmonster.getAllMeasures()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getAllMeasures())");
     dynamic measures = jsonDecode(measuresString);
     return measures;
   }
@@ -108,7 +108,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getCell(int rowIdx, int colIdx) async {
     WebViewController apiController = await controller.future;
     String cellDataObjectString = await apiController
-        .runJavascriptReturningResult("flexmonster.getCell($rowIdx,$colIdx)");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getCell($rowIdx,$colIdx))");
     dynamic cellDataObject = jsonDecode(cellDataObjectString);
     return cellDataObject;
   }
@@ -117,7 +117,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getColumns() async {
     WebViewController apiController = await controller.future;
     String columnsString = await apiController
-        .runJavascriptReturningResult("flexmonster.getColumns()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getColumns())");
     dynamic columns = jsonDecode(columnsString);
     return columns;
   }
@@ -126,7 +126,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getCondition(String id) async {
     WebViewController apiController = await controller.future;
     String conditionString = await apiController
-        .runJavascriptReturningResult("flexmonster.getCondition('$id')");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getCondition('$id'))");
     dynamic condition = jsonDecode(conditionString);
     return condition;
   }
@@ -135,7 +135,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getFilter(String uniqueName) async {
     WebViewController apiController = await controller.future;
     String filterString = await apiController
-        .runJavascriptReturningResult("flexmonster.getFilter('$uniqueName')");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getFilter('$uniqueName'))");
     dynamic filter = jsonDecode(filterString);
     return filter;
   }
@@ -145,7 +145,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getFlatSort() async {
     WebViewController apiController = await controller.future;
     String flatSortString = await apiController
-        .runJavascriptReturningResult("flexmonster.getFlatSort()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getFlatSort())");
     dynamic flatSort = jsonDecode(flatSortString);
     return flatSort;
   }
@@ -154,7 +154,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getFormat(String measureName, [String? aggregation]) async {
     WebViewController apiController = await controller.future;
     String formatString = await apiController.runJavascriptReturningResult(
-        "flexmonster.getFormat('$measureName'${aggregation == null ? "" : "'$aggregation'"})");
+        "JSON.stringify(flexmonster.getFormat('$measureName'${aggregation == null ? "" : "'$aggregation'"}))");
     dynamic format = jsonDecode(formatString);
     return format;
   }
@@ -163,7 +163,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getMeasures() async {
     WebViewController apiController = await controller.future;
     String measuresString = await apiController
-        .runJavascriptReturningResult("flexmonster.getMeasures()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getMeasures())");
     dynamic measures = jsonDecode(measuresString);
     return measures;
   }
@@ -173,7 +173,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getMembers(String uniqueName, [String? memberName]) async {
     WebViewController apiController = await controller.future;
     String membersString = await apiController.runJavascriptReturningResult(
-        "flexmonster.getMembers('$uniqueName'${memberName == null ? "" : "'$memberName'"})");
+        "JSON.stringify(flexmonster.getMembers('$uniqueName'${memberName == null ? "" : "'$memberName'"}))");
     dynamic members = jsonDecode(membersString);
     return members;
   }
@@ -182,7 +182,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getOptions() async {
     WebViewController apiController = await controller.future;
     String optionsString = await apiController
-        .runJavascriptReturningResult("flexmonster.getOptions()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getOptions())");
     dynamic options = jsonDecode(optionsString);
     return options;
   }
@@ -191,7 +191,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getReportFilters() async {
     WebViewController apiController = await controller.future;
     String reportFiltersString = await apiController
-        .runJavascriptReturningResult("flexmonster.getReportFilters()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getReportFilters())");
     dynamic reportFilters = jsonDecode(reportFiltersString);
     return reportFilters;
   }
@@ -200,7 +200,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getRows() async {
     WebViewController apiController = await controller.future;
     String rowsString = await apiController
-        .runJavascriptReturningResult("flexmonster.getRows()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getRows())");
     dynamic rows = jsonDecode(rowsString);
     return rows;
   }
@@ -209,7 +209,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getSelectedCell() async {
     WebViewController apiController = await controller.future;
     String selectedCellsString = await apiController
-        .runJavascriptReturningResult("flexmonster.getSelectedCell()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getSelectedCell())");
     dynamic selectedCells = jsonDecode(selectedCellsString);
     return selectedCells;
   }
@@ -218,7 +218,7 @@ class Flexmonster extends StatelessWidget {
   Future<dynamic> getTableSizes() async {
     WebViewController apiController = await controller.future;
     String tableSizesString = await apiController
-        .runJavascriptReturningResult("flexmonster.getTableSizes()");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getTableSizes())");
     dynamic tableSizes = jsonDecode(tableSizesString);
     return tableSizes;
   }
@@ -500,7 +500,7 @@ class Flexmonster extends StatelessWidget {
   Future<String> getSort(String uniqueName) async {
     WebViewController apiController = await controller.future;
     return await apiController
-        .runJavascriptReturningResult("flexmonster.getSort('$uniqueName')");
+        .runJavascriptReturningResult("JSON.stringify(flexmonster.getSort('$uniqueName'))");
   }
 
   ///Sets a Dart function for the specified event.

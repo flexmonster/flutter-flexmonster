@@ -18,7 +18,7 @@ Table of contents:
 * [Usage](#usage)
 * [Sample project](#sample-project)
 * [Support and feedback](#support-and-feedback)
-* [Flexmonster licensing](#flexmonster-licensing)
+* [License](#license)
 * [Social media](#social-media)
 
 ## Integration
@@ -34,7 +34,7 @@ Explore the available [methods and events](https://www.flexmonster.com/doc/integ
 
 If you look for some reference examples, our team prepared a ready-to-use [Flutter pivot grid sample project](https://github.com/flexmonster/pivot-flutter?r=wrap_flutter) with live demos of the most popular use cases. 
 
-In our documentation, you can find a [guide for the sample Flutter application](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter#github-sample). There, you can learn how to run it and what's inside.
+In our documentation, you can also find a [guide for the sample Flutter application](https://www.flexmonster.com/doc/integration-with-flutter?r=wrap_flutter#github-sample). There you can learn how to run it and what's inside.
 
 
 ## Support and feedback
@@ -43,7 +43,7 @@ In case of any issues, visit our [Troubleshooting](https://www.flexmonster.com/d
 
 To share your feedback or ask questions, contact our Tech team by raising a ticket on our [Help Center](https://www.flexmonster.com/help-center?r=wrap_flutter). You can also find a list of samples, technical specifications, and a user interface guide there.
 
-## Flexmonster licensing
+## License
 
 The Flexmonster Flutter wrapper is released as an MIT-licensed (free and open-source) add-on to Flexmonster Pivot.
 

@@ -1,5 +1,5 @@
 name: flutter_flexmonster
-description: Flutter module for Flexmonster Pivot Table and Charts.
+description: Flutter wrapper for Flexmonster Pivot Table and Charts
 homepage: https://www.flexmonster.com/
 documentation: https://www.flexmonster.com/doc/
 issue_tracker: https://www.flexmonster.com/help-center/
